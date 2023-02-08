@@ -22,6 +22,7 @@ h3 {
   font-size: 20px; /* tamaño de la letra*/
   font-weight: 3000; /* grueso de la letra*/
 }
+
 /* cuando pasas enfrente de el con el mouse que pasa*/
 button:hover{
   background-color:#0c45e2; /* cambia color del boton*/
