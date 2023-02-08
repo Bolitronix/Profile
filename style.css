@@ -90,6 +90,3 @@ button:hover{
     width: 100px;
   }
 }
-a{/*para eliminar el punto despues de los iconos*/
-  text-decoration: none;
-}
