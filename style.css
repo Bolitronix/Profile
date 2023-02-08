@@ -1,0 +1,91 @@
+body {
+  background: #e7a0a0;/*color de la parte de atras*/
+  color: #000000;/*color de las letras*/
+  font-family: 'Oswald', sans-serif; /*Las dos lineas son para el tipo de letra que quiero*/
+  font-family: 'Raleway', sans-serif;/*lo saque de google fronts*/
+  font-size: 20px; /* tamaño de todo el body*/
+}
+h1 {
+  color: #060000;
+  font-size: 30px; /* tamaño de la letra*/
+  font-weight: 3000; /* grueso de la letra*/
+}
+h2 {
+  color: #713636;
+  font-size: 25px; /* tamaño de la letra*/
+  font-weight: 3000; /* grueso de la letra*/
+  font-family: 'Caveat', cursive;
+}
+
+h3 {
+  color: #f40a0a;
+  font-size: 20px; /* tamaño de la letra*/
+  font-weight: 3000; /* grueso de la letra*/
+}
+/* cuando pasas enfrente de el con el mouse que pasa*/
+button:hover{
+  background-color:#0c45e2; /* cambia color del boton*/
+  color: white; /* cambia color de letra dwentro del boton*/
+  transition: 0.7s; /* estos cambios con una transicion de .7s*/
+}
+/* cuando pasas enfrente de el con el mouse que pasa solo a los iconos*/
+.list_in_line i:hover{
+  color: black;
+  transition: 1s;
+}
+.list_in_line{/*con punto llamamos una clase y con # un id*/
+  list-style: none;/*Quitamos los puntos que se generan a un lado de las listas*/
+  padding-left: 0; /*Al momento de inspeccionar sale como un fondo verde a lado izq de mis iconos eso lo borramos pading*/
+}
+/*aqui deberia llevar la clase para que no agarre todas las listas que vayamos a crear */
+.list_in_line li{/*dentro de la ul hazme la separaciion en linea no en fila a lo horizontal no vertical*/
+  display: inline; /*como quieres que sea la separacion de cada lista*/
+  padding: 10px; /*separacion entre cada icono*/
+}
+/*le pusimos el i del icono para cambiar especificamente eso*/
+.list_in_line i{
+  font-size: 50px;
+  color: rgb(204,219,232)
+}
+/*llamamos la clase img-... y la hacemos circulo*/
+.img-circle {
+  border-radius: 50%;
+}
+.container{
+  width: 800px;
+  margin: 0px auto;
+}
+
+/*clase de div*/
+.card{
+  background-color: #f8f3f3;
+  padding: 20px;/*el relleno del div*/
+  margin: 25px 25px;/*margenes de  vertical y horizontral y*/
+  text-align: center;/*este centrado*/
+  box-shadow: 0px 10px 30px red; /*primer pixel cuanto sombreado esta forma horizontal 2 abajo 3 grosor del sombreado*/
+  border-radius: 10px;/*que tenga los bordes curveados*/
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container{
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container{
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container{
+    width: 300px;
+  }
+}
+@media (max-width: 220px) {
+  /* For a screen < 220px, this CSS will be read */
+  .container{
+    width: 100px;
+  }
+}

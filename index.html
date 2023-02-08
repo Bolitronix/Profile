@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Este sera el nombre de mi pestaña-->
+    <title>Mi Perfil</title>
+    <!-- utf-8 es para que se lean caracteres de teclado latinoamericano -->
+    <meta charset="utf-8">
+    <!-- style.css es para meter a nuestro html css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Agarra el link para usar iconos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <!-- las siguientes 3 lineas me lo da la pagina FONTAWESOME PARA EL TIPO DE LETRA -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <!-- es lo mismo que la pasada pero como ya habiamos puesto el preconnect no huno nevesidad de hacerlo otra vez -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <!-- Esto le permite a tu página detectar el ancho del dispositivo que estás usando -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <!-- Título y Subtítulo -->
+        <h1>Fernando Ramirez Zarco 😎</h1>
+        <h2>Programador</h2>
+        <!-- Foto -->
+        <img src="images/108149366.jpg" class="img-circle" width="130px" alt="Foto de Perfil">
+        <!-- Descripción Personal -->
+        <p>
+          Soy programador apasionado por la tecnología y la resolución de problemas. Me gusta trabajar en proyectos interesantes y desafiantes.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Sigueme</h3>
+        <!-- Conjunto de Listas de Enlaces a Redes Sociales -->
+        <ul class="list_in_line">
+          <!-- estamos listando con li -->
+          <li>
+            <!-- href esta el link donde te va a llevar al presionarle y el target blank es para mandarte a otra pestaña -->
+            <a href="www.twitter.com" target="_blank">
+              <!-- "CLASS" ESTA DADA POR FONT AWESOME PARA USAR ICONOS -->
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <!-- <a href="#" target="_blank"> -->
+              <i class="fa-brands fa-linkedin"></i>
+            <!-- </a> -->
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- Botón -->
+        <button>Contactame</button>
+      </div>
+    </div>
+  </body>
+</html>
